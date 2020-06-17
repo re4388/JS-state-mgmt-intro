@@ -11,8 +11,9 @@ https://dev.to/bnevilleoneill/state-management-pattern-in-javascript-sharing-dat
 
 
 
-*we use publish and subscribe model to let base component and Store communicate*
-*we use Store to manage our state through Event Flow*
+> *we use publish and subscribe model to let base component and Store communicate*
+
+> *we use Store to manage our state through Event Flow*
 
 ### Event Flow for state memt
 Event -> Event dispatch action with/without payload -> Store instance(context) commit a particular action -> that particular action commit and mutate state
