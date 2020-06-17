@@ -1,6 +1,8 @@
 import Component from '../lib/component.js';
 import store from '../store/index.js';
 
+/* we only need to inherit base component store and element ,
+no render function here*/
 export default class Status extends Component {
     constructor() {
         super({

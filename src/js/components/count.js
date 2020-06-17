@@ -1,6 +1,9 @@
 import Component from '../lib/component.js';
 import store from '../store/index.js';
 
+/* In thie simple case, we only need to have 2 things get from base
+component, one is store, for state mgmt, another is where our component
+can bind to view */
 export default class Count extends Component {
     constructor() {
         super({
